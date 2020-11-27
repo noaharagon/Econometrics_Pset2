@@ -1,0 +1,31 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amssymb, graphicx, multicol, array}
+
+
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\begin{document}
+
+\title{\textbf{Group Assignment 2: Predictive Econometrics}}
+\author{Noah Julian Angara (16-604-233)\\
+Giovanni Magagnin (17-300-914)}
+\maketitle
+
+\subsection*{1. Observations in Dataset}
+Observations Test: 143\\
+Observations Train: 214
+\subsection*{2. Summary Statistics Train}
+Min: 4\\
+Mean: 11.64\\
+Max: 19\\
+\subsection*{3. Histogram For Grades in Train}
+\begin{center}
+\includegraphics[scale = 0.8]{"histogram.png"}
+\end{center}
+\subsection*{4. Difference Causal vs. Predictive Modelling}
+In predictive modelling the interest is in generating a new, forward-looking quantity i.e. a prediction, conditional on our covariates. This can be directed at the near future (e.g. nowcasting GDP before quarterly report is released) or several years ahead (e.g. GDP in four years). Conversely, in causal modelling the focus is on discerning how (if at all) the dependent variable changes as one or more of the independent variables change.
+
+\end{document}
